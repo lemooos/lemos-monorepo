@@ -1,3 +1,3 @@
-const config = require('@lemos/prettier-config');
+const config = require('@lemoos/prettier-config');
 
 module.exports = config;

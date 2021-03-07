@@ -1,14 +1,14 @@
 {
-  "name": "@lemos/workspace",
+  "name": "@lemoos/workspace",
   "version": "1.0.0",
   "description": "The lerna-managed monorepo for utilities for React projects.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lemooos/lemos-monorepo.git"
+    "url": "git+https://github.com/lemooos/lemoos-monorepo.git"
   },
-  "homepage": "https://github.com/lemooos/lemos-monorepo#readme",
-  "author": "Leonardo Lemos <leo.lemos.ds@gmail.com>",
+  "homepage": "https://github.com/lemooos/lemoos-monorepo#readme",
+  "author": "Leonardo lemoos <leo.lemoos.ds@gmail.com>",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -46,6 +46,6 @@
     "Sass"
   ],
   "bugs": {
-    "url": "https://github.com/lemooos/lemos-monorepo/issues"
+    "url": "https://github.com/lemooos/lemoos-monorepo/issues"
   }
 }
