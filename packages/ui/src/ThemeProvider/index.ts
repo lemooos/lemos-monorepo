@@ -1,2 +1,2 @@
-export { Props as ThemeProviderProps } from './types';
+export type { Props as ThemeProviderProps } from './types';
 export { default as ThemeProvider } from './ThemeProvider';
