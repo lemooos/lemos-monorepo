@@ -1,0 +1,10 @@
+{
+  "name": "@lemos/lint",
+  "version": "1.0.0",
+  "description": "The ESLint preset for the monorepo.  It has all the possiblity of being used in other projects.  Provided by Google standard ESLint config.",
+  "main": ".eslintrc.json",
+  "repository": "git@github.com:lemooos/lemos-monorepo",
+  "author": "Leonardo Lemos <leo.lemos.ds@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
