@@ -41,7 +41,7 @@ const ThemeProvider: React.FunctionComponent<Props> = ({
   };
 
   return (
-    <OriginalProvider {...{ theme: withBuiltinTheme }}>
+    <OriginalProvider theme={withBuiltinTheme}>
       {children}
     </OriginalProvider>
   );
