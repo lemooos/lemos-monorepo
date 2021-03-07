@@ -1,5 +1,5 @@
-**/build
-
+#**/build -- uncomment this afterward setting up the CI/CD.
+ 
 yarn-error.log
 **/yarn-error.log
 
