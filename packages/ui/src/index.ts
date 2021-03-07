@@ -1,3 +1,4 @@
-const item = 'with-item';
+import { Button } from './Button';
+import { ThemeProvider } from './ThemeProvider';
 
-export { item };
+export { Button, ThemeProvider };
