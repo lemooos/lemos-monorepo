@@ -1,0 +1,10 @@
+{
+  "name": "@lemos/prettier-config",
+  "version": "1.0.0",
+  "description": "The Prettier preset from the lemos monorepo.  It has possibility to be used outside the monorepo as well as inside of it.",
+  "main": "prettier.config.js",
+  "repository": "git@github.com/lemooos/lemos-monorepo",
+  "author": "Leonardo Lemos <leo.lemos.ds@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
