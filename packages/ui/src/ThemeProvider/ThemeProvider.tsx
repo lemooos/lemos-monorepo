@@ -3,6 +3,8 @@ import React from 'react';
 import { Props } from './types';
 
 import { themeContext } from '../theme/defaultThemeContext';
+
+import * as styled from './ThemeProvider.styles';
 import { ThemeProvider as OriginalProvider } from 'styled-components';
 
 const ThemeProvider: React.FunctionComponent<Props> = ({
@@ -41,9 +43,12 @@ const ThemeProvider: React.FunctionComponent<Props> = ({
   };
 
   return (
-    <OriginalProvider theme={withBuiltinTheme}>
-      {children}
-    </OriginalProvider>
+    <React.Fragment>
+      <styled.Global />
+      <OriginalProvider theme={withBuiltinTheme}>
+        {children}
+      </OriginalProvider>
+    </React.Fragment>
   );
 };
 
