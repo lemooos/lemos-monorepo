@@ -5,7 +5,9 @@
     },
     "extends": [
         "plugin:react/recommended",
-        "google"
+        "google",
+        "react-app",
+        "react-app/jest"
     ],
     "parser": "@typescript-eslint/parser",
     "parserOptions": {
@@ -20,5 +22,8 @@
         "@typescript-eslint"
     ],
     "rules": {
+        "max-len": 0,
+        "react/prop-types": 0,
+        "object-curly-spacing": 0
     }
 }

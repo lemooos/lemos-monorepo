@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "The lerna-managed monorepo for utilities for React projects.",
   "main": "index.js",
-  "repository": "https://github.com/lemooos/lemos",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lemooos/lemos-monorepo.git"
+  },
+  "homepage": "https://github.com/lemooos/lemos-monorepo#readme",
   "author": "Leonardo Lemos <leo.lemos.ds@gmail.com>",
   "license": "MIT",
   "private": true,
@@ -30,5 +34,18 @@
   },
   "scripts": {
     "commitlint": "yarn commitlint --from=HEAD~1"
+  },
+  "keywords": [
+    "React",
+    "UI",
+    "Front-end",
+    "Frontend",
+    "CSS",
+    "Component",
+    "Components",
+    "Sass"
+  ],
+  "bugs": {
+    "url": "https://github.com/lemooos/lemos-monorepo/issues"
   }
 }
