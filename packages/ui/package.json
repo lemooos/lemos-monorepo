@@ -1,7 +1,6 @@
 {
   "name": "@lemoos/ui",
   "version": "1.0.0-alpha.0",
-  "private": true,
   "main": "./build/lemoos-ui.js",
   "module": "./build/lemoos-ui.esm.js",
   "types": "./build/lemoos-ui.d.ts",
