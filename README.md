@@ -4,6 +4,6 @@
     </a>
 </p>
 
-<code style='background: #efefef; padding: 1.4rem; margin: 0 auto; border-radius: 0.5rem;'>
+<code style='background: #efefef; padding: 2rem; margin: 0 auto; border-radius: 0.5rem; font-family: monospace; font-weight: bold;'>
     yarn add @lemooos/ui
 </code>
