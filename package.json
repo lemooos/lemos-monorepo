@@ -10,7 +10,7 @@
   "homepage": "https://github.com/lemooos/lemoos-monorepo#readme",
   "author": "Leonardo lemoos <leo.lemos.ds@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
