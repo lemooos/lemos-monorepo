@@ -2,7 +2,7 @@
   "name": "@lemoos/prettier-config",
   "version": "0.0.1",
   "description": "The Prettier preset from the lemoos monorepo.  It has possibility to be used outside the monorepo as well as inside of it.",
-  "main": "prettier.config.js",
+  "main": ".prettierrc.json",
   "repository": "git@github.com/lemooos/lemoos-monorepo",
   "author": "Leonardo lemoos <leo.lemoos.ds@gmail.com>",
   "license": "MIT",
