@@ -34,7 +34,9 @@
   },
   "scripts": {
     "commitlint": "yarn commitlint --from=HEAD~1",
-    "prepare": "is-ci || husky install"
+    "prepare": "is-ci || husky install",
+    "format": "yarn prettier --write --check ./packages/",
+    "lint": "yarn eslint --fix"
   },
   "keywords": [
     "React",

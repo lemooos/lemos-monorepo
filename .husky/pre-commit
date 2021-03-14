@@ -3,6 +3,4 @@
 
 #npm test
 
-yarn prettier --check --write
-
-yarn eslint --fix
+yarn run format && yarn run lint

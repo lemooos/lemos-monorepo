@@ -7,10 +7,7 @@ import { themeContext } from '../theme/defaultThemeContext';
 import * as styled from './ThemeProvider.styles';
 import { ThemeProvider as OriginalProvider } from 'styled-components';
 
-const ThemeProvider: React.FunctionComponent<Props> = ({
-  children,
-  theme = themeContext,
-}) => {
+const ThemeProvider: React.FunctionComponent<Props> = ({ children, theme = themeContext }) => {
   const withBuiltinTheme = {
     primary: {
       ...themeContext?.primary,
@@ -45,9 +42,7 @@ const ThemeProvider: React.FunctionComponent<Props> = ({
   return (
     <React.Fragment>
       <styled.Global />
-      <OriginalProvider theme={withBuiltinTheme}>
-        {children}
-      </OriginalProvider>
+      <OriginalProvider theme={withBuiltinTheme}>{children}</OriginalProvider>
     </React.Fragment>
   );
 };

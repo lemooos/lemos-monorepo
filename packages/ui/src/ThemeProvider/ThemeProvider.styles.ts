@@ -4,23 +4,23 @@ import { ThemeContext } from '../types';
 import { themeContext } from '../theme/defaultThemeContext';
 
 const wrenchBaselineSize = (_: { theme: ThemeContext }) => {
-    const { theme } = _;
-    
-    if (theme && theme.settings?.fontRootElementMeasureSize) {
-        return theme.settings?.fontRootElementMeasureSize;
-    }
+  const { theme } = _;
 
-    return themeContext.settings?.fontRootElementMeasureSize || '16px';
+  if (theme && theme.settings?.fontRootElementMeasureSize) {
+    return theme.settings?.fontRootElementMeasureSize;
+  }
+
+  return themeContext.settings?.fontRootElementMeasureSize || '16px';
 };
 
 const wrenchFontFamily = (_: { theme: ThemeContext }) => {
-    const { theme } = _;
+  const { theme } = _;
 
-    if (theme && theme.settings?.fontFamily) {
-        return theme.settings?.fontFamily;
-    }
+  if (theme && theme.settings?.fontFamily) {
+    return theme.settings?.fontFamily;
+  }
 
-    return themeContext.settings?.fontFamily;
+  return themeContext.settings?.fontFamily;
 };
 
 export const Global = createGlobalStyle<{ theme: ThemeContext }>`

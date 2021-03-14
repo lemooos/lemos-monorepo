@@ -1,12 +1,6 @@
 import styled from 'styled-components';
 
-import {
-  Props,
-  ButtonColor,
-  ButtonVariant,
-  ButtonSize,
-  ButtonType,
-} from './types';
+import { Props, ButtonColor, ButtonVariant, ButtonSize, ButtonType } from './types';
 import { ThemeContext } from '../types';
 
 import size from './constants/size';
@@ -25,8 +19,7 @@ export const Rounded = styled.button<
 
   text-align: center;
 
-  font-family: ${(props) =>
-    props.theme?.settings?.fontFamily || '"Inter", "Roboto", sans-serif'};
+  font-family: ${(props) => props.theme?.settings?.fontFamily || '"Inter", "Roboto", sans-serif'};
 
   padding: ${(props) => size[props.size].padding};
   font-size: ${(props) => size[props.size].fontSize};

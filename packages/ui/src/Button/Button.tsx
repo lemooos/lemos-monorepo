@@ -11,7 +11,7 @@ const Button: React.FunctionComponent<Props> = ({
   size = 'md',
   variant = 'contained',
   type = 'button',
-    disabled = false,
+  disabled = false,
   ...props
 }) => {
   const onClick = (event?: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
@@ -22,8 +22,7 @@ const Button: React.FunctionComponent<Props> = ({
     <styled.Rounded
       className={`lButton-${variant}--${size}--${color}`}
       {...{ variant, color, size, onClick, type, disabled }}
-      onMouseOver={onHover}
-    >
+      onMouseOver={onHover}>
       {children}
     </styled.Rounded>
   );
