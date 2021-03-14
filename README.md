@@ -16,7 +16,7 @@
 </div>
 
 <div>
-    But if you prefer to use npm (root feelings), consider using this command:
+    But if you prefer to use npm <em>(root feelings)</em>, consider using <em>this</em> command:
 <code>
     npm i @lemooos/ui
 </code>
