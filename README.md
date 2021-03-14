@@ -4,6 +4,16 @@
     </a>
 </p>
 
-<code style='background: #efefef; padding: 2rem; margin: 0 auto; border-radius: 0.5rem; font-family: monospace; font-weight: bold;'>
+### Installation
+
+If you are using Yarn as your package manager, consider using the following command:
+
+<code>
     yarn add @lemooos/ui
+</code>
+
+But if you prefer to use npm *(root feelings)*, consider using *this* command:
+
+<code>
+    npm i @lemooos/ui
 </code>
