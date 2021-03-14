@@ -1,6 +1,6 @@
 {
   "name": "@lemoos/prettier-config",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.0",
   "description": "The Prettier preset from the lemoos monorepo.  It has possibility to be used outside the monorepo as well as inside of it.",
   "main": ".prettierrc.json",
   "repository": "git@github.com/lemooos/lemoos-monorepo",

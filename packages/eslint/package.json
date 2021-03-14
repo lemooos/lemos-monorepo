@@ -1,6 +1,6 @@
 {
   "name": "@lemoos/lint",
-  "version": "0.0.1",
+  "version": "1.0.0-alpha.0",
   "description": "The ESLint preset for the monorepo.  It has all the possiblity of being used in other projects.  Provided by Google standard ESLint config.",
   "main": ".eslintrc.json",
   "repository": "git@github.com:lemooos/lemoos-monorepo",
