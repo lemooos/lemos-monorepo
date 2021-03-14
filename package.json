@@ -8,7 +8,7 @@
     "url": "git+https://github.com/lemooos/lemoos-monorepo.git"
   },
   "homepage": "https://github.com/lemooos/lemoos-monorepo#readme",
-  "author": "Leonardo lemoos <leo.lemoos.ds@gmail.com>",
+  "author": "Leonardo lemoos <leo.lemos.ds@gmail.com>",
   "license": "MIT",
   "private": true,
   "workspaces": [
@@ -33,7 +33,8 @@
     "typescript": "^4.2.3"
   },
   "scripts": {
-    "commitlint": "yarn commitlint --from=HEAD~1"
+    "commitlint": "yarn commitlint --from=HEAD~1",
+    "prepare": "is-ci || husky install"
   },
   "keywords": [
     "React",
